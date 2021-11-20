@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="sevrices.add_service">
+        <methods>
+          <include name="Service_User"/>
+          <include name="Add_Service_User"/>
+          <include name="intitalisation_drivers"/>
+          <include name="add"/>
+          <include name="search"/>
+          <include name="Link"/>
+          <include name="Login_Credentials"/>
+          <include name="Login"/>
+          <include name="Upload_Profile_Photo"/>
+        </methods>
+      </class> <!-- sevrices.add_service -->
+      <class name="sevrices.update_services">
+        <methods>
+          <include name="Service_User"/>
+          <include name="Add_Service_User"/>
+          <include name="update"/>
+          <include name="intitalisation_drivers"/>
+          <include name="add"/>
+          <include name="search"/>
+          <include name="edit"/>
+          <include name="Link"/>
+          <include name="Login_Credentials"/>
+          <include name="Login"/>
+          <include name="Upload_Profile_Photo"/>
+        </methods>
+      </class> <!-- sevrices.update_services -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
